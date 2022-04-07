@@ -9,7 +9,7 @@ module data_mem (
 );
 
     // this is not a proper implementation of ram, just a dummy register
-    reg[128] data_ram
+    reg[128][32] data_ram;
 
     always @(posedge clock) begin
         if(!reset) begin
