@@ -6,8 +6,8 @@ module reg_file (
     input wire [4:0] wa,
     input wire [31:0] wda,
     input wire reg_wr,
-    output wire rda,
-    output wire rdb
+    output wire[31:0] rda,
+    output wire[31:0] rdb
 );
 
     reg [31:0] registers = 32'b0;
