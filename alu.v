@@ -38,6 +38,7 @@ module alu (
                         // something weird here 
                     end 
                 end
+            endcase
         end
     end
 

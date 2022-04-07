@@ -9,7 +9,7 @@ module alu_control (
         if(!reset) begin
             if (alu_op == 2) begin
                 if(instruction[31:25] == 0) begin
-                    case (instruction[14:12]) begin
+                    case (instruction[14:12])
                         0: alu_decode <= ADD;
                         1: alu_decode <= SLL;
                         2: alu_decode <= SLT;
@@ -18,7 +18,7 @@ module alu_control (
                         5: alu_decode <= SRL;
                         6: alu_decode <= OR;
                         7: alu_decode <= AND;
-                    end
+                    endcase
                 end
                 else if (instruction[31:25] == 32) begin
                     case (instruction[14:12] == 32) begin
