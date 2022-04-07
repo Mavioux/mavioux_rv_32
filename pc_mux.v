@@ -15,4 +15,5 @@ module pc_mux (
                 pc <= pc_adder;
             end
         end
-    end 
+    end
+endmodule

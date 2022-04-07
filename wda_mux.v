@@ -16,3 +16,4 @@ module wda_mux (
             end
         end
     end
+endmodule

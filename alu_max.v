@@ -16,3 +16,4 @@ module alu_max (
             end
         end
     end
+endmodule

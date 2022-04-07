@@ -31,3 +31,4 @@ module reg_file (
             end
         end
     end
+endmodule

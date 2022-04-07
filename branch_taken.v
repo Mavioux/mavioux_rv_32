@@ -10,3 +10,4 @@ module branch_taken (
     else begin
         pc_sel <= 1'b0;
     end
+endmodule
